@@ -4,5 +4,5 @@ def my_collect(collection)
   empty_array = []
   while i < collection.length
     i = i + 1
-    
+
 end
