@@ -5,5 +5,8 @@ def my_collect(collection)
     while i < collection.length
       empty_array << yield(collection[i])
       i = i + 1
+      collection.upcase
+      collection.split(" ").first
     end
+    collection
 end
