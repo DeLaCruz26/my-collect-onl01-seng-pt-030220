@@ -6,5 +6,4 @@ def my_collect(collection)
       empty_array << yield(collection[i])
       i = i + 1
     end
-    collection.upcase
 end
